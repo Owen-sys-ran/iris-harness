@@ -1,0 +1,9 @@
+task,variant,backend,psnr_mean,psnr_std,ssim_mean,ssim_std,shift_mean,shift_std
+lowlight,baseline,zero_dce,14.942,4.286,0.653,0.135,45.642,25.55
+lowlight,evolved,zero_dce,18.675,4.304,0.702,0.097,25.842,20.747
+dehaze,baseline,aodnet,21.08,3.396,0.897,0.059,12.872,9.882
+dehaze,evolved,aodnet,21.075,2.043,0.909,0.044,10.675,7.723
+underwater,baseline,funie_gan,19.445,3.284,0.752,0.108,13.162,10.451
+underwater,evolved,funie_gan,20.211,3.457,0.803,0.09,13.235,10.629
+denoise,baseline,nlm,24.804,1.713,0.647,0.108,1.384,0.743
+denoise,evolved,nlm,24.804,1.713,0.647,0.108,1.384,0.743

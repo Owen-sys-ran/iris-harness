@@ -1,0 +1,3317 @@
+{
+  "entries": [
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.1
+      },
+      "rationale": "线性缩放整体亮度/对比度，补偿暗部或雾感残留",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 12.308129011223242,
+          "std": 2.5250410561501107
+        },
+        "ssim": {
+          "mean": 0.6326397546505592,
+          "std": 0.14618622119107363
+        },
+        "channel_shift": {
+          "mean": 60.22850813492063,
+          "std": 19.9259600042365
+        },
+        "contrast_std": {
+          "mean": 38.72850842842735,
+          "std": 8.048393993223435
+        },
+        "mean_val": 79.8525138888889,
+        "contrast": 38.72850842842735,
+        "rb_ratio": 1.109980176454821,
+        "psnr_mean": 12.308129011223242,
+        "ssim_mean": 0.6326397546505592,
+        "channel_shift_mean": 60.22850813492063
+      },
+      "verdict": "improved",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 11.26945718811933,
+            "std": 2.111375641668532
+          },
+          "ssim": {
+            "mean": 0.6073282516379682,
+            "std": 0.14514091946381025
+          },
+          "channel_shift": {
+            "mean": 67.08200376984128,
+            "std": 18.54868732983466
+          },
+          "contrast_std": {
+            "mean": 35.21796904110068,
+            "std": 7.318803129790419
+          },
+          "mean_val": 72.99901825396826,
+          "contrast": 35.21796904110068,
+          "rb_ratio": 1.1089497492249203,
+          "psnr_mean": 11.26945718811933,
+          "ssim_mean": 0.6073282516379682,
+          "channel_shift_mean": 67.08200376984128
+        }
+      },
+      "entry_id": "6292cd22",
+      "created_at": "2026-11-21 16:54:34"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.2
+      },
+      "rationale": "线性缩放整体亮度/对比度，补偿暗部或雾感残留",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 13.565639297715592,
+          "std": 3.0644456681057797
+        },
+        "ssim": {
+          "mean": 0.6548512281163683,
+          "std": 0.14418551796819984
+        },
+        "channel_shift": {
+          "mean": 52.87540634920635,
+          "std": 21.38650156285962
+        },
+        "contrast_std": {
+          "mean": 42.250289854546665,
+          "std": 8.782638943161576
+        },
+        "mean_val": 87.20561567460318,
+        "contrast": 42.250289854546665,
+        "rb_ratio": 1.1097411404914401,
+        "psnr_mean": 13.565639297715592,
+        "ssim_mean": 0.6548512281163683,
+        "channel_shift_mean": 52.87540634920635
+      },
+      "verdict": "improved",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 12.308129011223242,
+            "std": 2.5250410561501107
+          },
+          "ssim": {
+            "mean": 0.6326397546505592,
+            "std": 0.14618622119107363
+          },
+          "channel_shift": {
+            "mean": 60.22850813492063,
+            "std": 19.9259600042365
+          },
+          "contrast_std": {
+            "mean": 38.72850842842735,
+            "std": 8.048393993223435
+          },
+          "mean_val": 79.8525138888889,
+          "contrast": 38.72850842842735,
+          "rb_ratio": 1.109980176454821,
+          "psnr_mean": 12.308129011223242,
+          "ssim_mean": 0.6326397546505592,
+          "channel_shift_mean": 60.22850813492063
+        }
+      },
+      "entry_id": "d6b56724",
+      "created_at": "2026-11-21 16:54:37"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.35
+      },
+      "rationale": "线性缩放整体亮度/对比度，补偿暗部或雾感残留",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 15.781404380713141,
+          "std": 4.1191320317116045
+        },
+        "ssim": {
+          "mean": 0.6756078996237399,
+          "std": 0.13781536723241658
+        },
+        "channel_shift": {
+          "mean": 41.996785317460315,
+          "std": 23.677216010524774
+        },
+        "contrast_std": {
+          "mean": 47.5195240003129,
+          "std": 9.882519903991334
+        },
+        "mean_val": 98.0842367063492,
+        "contrast": 47.5195240003129,
+        "rb_ratio": 1.1098118449220813,
+        "psnr_mean": 15.781404380713141,
+        "ssim_mean": 0.6756078996237399,
+        "channel_shift_mean": 41.996785317460315
+      },
+      "verdict": "improved",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 13.565639297715592,
+            "std": 3.0644456681057797
+          },
+          "ssim": {
+            "mean": 0.6548512281163683,
+            "std": 0.14418551796819984
+          },
+          "channel_shift": {
+            "mean": 52.87540634920635,
+            "std": 21.38650156285962
+          },
+          "contrast_std": {
+            "mean": 42.250289854546665,
+            "std": 8.782638943161576
+          },
+          "mean_val": 87.20561567460318,
+          "contrast": 42.250289854546665,
+          "rb_ratio": 1.1097411404914401,
+          "psnr_mean": 13.565639297715592,
+          "ssim_mean": 0.6548512281163683,
+          "channel_shift_mean": 52.87540634920635
+        }
+      },
+      "entry_id": "e9ee4957",
+      "created_at": "2026-11-21 16:54:40"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gamma",
+        "old": null,
+        "new": 0.7
+      },
+      "rationale": "曲线映射，非线性抬升暗部或压制高光",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 19.7212400036899,
+          "std": 4.5763539820771895
+        },
+        "ssim": {
+          "mean": 0.7284996545128221,
+          "std": 0.09171579681778642
+        },
+        "channel_shift": {
+          "mean": 21.42727976190476,
+          "std": 19.813886104501837
+        },
+        "contrast_std": {
+          "mean": 48.46223450633899,
+          "std": 10.122859461252805
+        },
+        "mean_val": 123.83690218253966,
+        "contrast": 48.46223450633899,
+        "rb_ratio": 1.0922837482427659,
+        "psnr_mean": 19.7212400036899,
+        "ssim_mean": 0.7284996545128221,
+        "channel_shift_mean": 21.42727976190476
+      },
+      "verdict": "improved",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 15.781404380713141,
+            "std": 4.1191320317116045
+          },
+          "ssim": {
+            "mean": 0.6756078996237399,
+            "std": 0.13781536723241658
+          },
+          "channel_shift": {
+            "mean": 41.996785317460315,
+            "std": 23.677216010524774
+          },
+          "contrast_std": {
+            "mean": 47.5195240003129,
+            "std": 9.882519903991334
+          },
+          "mean_val": 98.0842367063492,
+          "contrast": 47.5195240003129,
+          "rb_ratio": 1.1098118449220813,
+          "psnr_mean": 15.781404380713141,
+          "ssim_mean": 0.6756078996237399,
+          "channel_shift_mean": 41.996785317460315
+        }
+      },
+      "entry_id": "54603dde",
+      "created_at": "2026-11-21 16:54:43"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gamma",
+        "old": null,
+        "new": 0.85
+      },
+      "rationale": "曲线映射，非线性抬升暗部或压制高光",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 18.048534448527047,
+          "std": 4.7748562707226965
+        },
+        "ssim": {
+          "mean": 0.7071487478602841,
+          "std": 0.11699612389130587
+        },
+        "channel_shift": {
+          "mean": 30.493341071428567,
+          "std": 23.952142010116994
+        },
+        "contrast_std": {
+          "mean": 48.36242574136166,
+          "std": 9.800442672868302
+        },
+        "mean_val": 109.64551666666668,
+        "contrast": 48.36242574136166,
+        "rb_ratio": 1.1015582182374397,
+        "psnr_mean": 18.048534448527047,
+        "ssim_mean": 0.7071487478602841,
+        "channel_shift_mean": 30.493341071428567
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 19.7212400036899,
+            "std": 4.5763539820771895
+          },
+          "ssim": {
+            "mean": 0.7284996545128221,
+            "std": 0.09171579681778642
+          },
+          "channel_shift": {
+            "mean": 21.42727976190476,
+            "std": 19.813886104501837
+          },
+          "contrast_std": {
+            "mean": 48.46223450633899,
+            "std": 10.122859461252805
+          },
+          "mean_val": 123.83690218253966,
+          "contrast": 48.46223450633899,
+          "rb_ratio": 1.0922837482427659,
+          "psnr_mean": 19.7212400036899,
+          "ssim_mean": 0.7284996545128221,
+          "channel_shift_mean": 21.42727976190476
+        }
+      },
+      "entry_id": "06a6c6e1",
+      "created_at": "2026-11-21 16:54:46"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gamma",
+        "old": null,
+        "new": 1.15
+      },
+      "rationale": "曲线映射，非线性抬升暗部或压制高光",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 13.8137662518132,
+          "std": 3.4774504860949356
+        },
+        "ssim": {
+          "mean": 0.6321777592252665,
+          "std": 0.15336352633431807
+        },
+        "channel_shift": {
+          "mean": 52.74205952380953,
+          "std": 23.14413177183196
+        },
+        "contrast_std": {
+          "mean": 46.16420124302574,
+          "std": 10.230447371884338
+        },
+        "mean_val": 87.3389625,
+        "contrast": 46.16420124302574,
+        "rb_ratio": 1.119558468810564,
+        "psnr_mean": 13.8137662518132,
+        "ssim_mean": 0.6321777592252665,
+        "channel_shift_mean": 52.74205952380953
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 19.7212400036899,
+            "std": 4.5763539820771895
+          },
+          "ssim": {
+            "mean": 0.7284996545128221,
+            "std": 0.09171579681778642
+          },
+          "channel_shift": {
+            "mean": 21.42727976190476,
+            "std": 19.813886104501837
+          },
+          "contrast_std": {
+            "mean": 48.46223450633899,
+            "std": 10.122859461252805
+          },
+          "mean_val": 123.83690218253966,
+          "contrast": 48.46223450633899,
+          "rb_ratio": 1.0922837482427659,
+          "psnr_mean": 19.7212400036899,
+          "ssim_mean": 0.7284996545128221,
+          "channel_shift_mean": 21.42727976190476
+        }
+      },
+      "entry_id": "bca8b352",
+      "created_at": "2026-11-21 16:54:49"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "sharpen",
+        "old": null,
+        "new": 0.3
+      },
+      "rationale": "Unsharp Mask 补偿去模糊/去噪带来的细节损失",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 19.686010923882094,
+          "std": 4.590330472144327
+        },
+        "ssim": {
+          "mean": 0.7174298841125692,
+          "std": 0.09398320516136702
+        },
+        "channel_shift": {
+          "mean": 21.503568055555554,
+          "std": 19.978930852000566
+        },
+        "contrast_std": {
+          "mean": 48.649125977611895,
+          "std": 10.099106353628935
+        },
+        "mean_val": 123.51389960317462,
+        "contrast": 48.649125977611895,
+        "rb_ratio": 1.0922971050246566,
+        "psnr_mean": 19.686010923882094,
+        "ssim_mean": 0.7174298841125692,
+        "channel_shift_mean": 21.503568055555554
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 19.7212400036899,
+            "std": 4.5763539820771895
+          },
+          "ssim": {
+            "mean": 0.7284996545128221,
+            "std": 0.09171579681778642
+          },
+          "channel_shift": {
+            "mean": 21.42727976190476,
+            "std": 19.813886104501837
+          },
+          "contrast_std": {
+            "mean": 48.46223450633899,
+            "std": 10.122859461252805
+          },
+          "mean_val": 123.83690218253966,
+          "contrast": 48.46223450633899,
+          "rb_ratio": 1.0922837482427659,
+          "psnr_mean": 19.7212400036899,
+          "ssim_mean": 0.7284996545128221,
+          "channel_shift_mean": 21.42727976190476
+        }
+      },
+      "entry_id": "e5877abe",
+      "created_at": "2026-11-21 16:54:52"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "sharpen",
+        "old": null,
+        "new": 0.6
+      },
+      "rationale": "Unsharp Mask 补偿去模糊/去噪带来的细节损失",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 19.655217525601568,
+          "std": 4.566949982425609
+        },
+        "ssim": {
+          "mean": 0.7067010466249322,
+          "std": 0.09634589741609781
+        },
+        "channel_shift": {
+          "mean": 21.477753373015872,
+          "std": 19.936560478021086
+        },
+        "contrast_std": {
+          "mean": 48.79990092872214,
+          "std": 10.070918005758712
+        },
+        "mean_val": 123.56180912698413,
+        "contrast": 48.79990092872214,
+        "rb_ratio": 1.0921560375467243,
+        "psnr_mean": 19.655217525601568,
+        "ssim_mean": 0.7067010466249322,
+        "channel_shift_mean": 21.477753373015872
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 19.7212400036899,
+            "std": 4.5763539820771895
+          },
+          "ssim": {
+            "mean": 0.7284996545128221,
+            "std": 0.09171579681778642
+          },
+          "channel_shift": {
+            "mean": 21.42727976190476,
+            "std": 19.813886104501837
+          },
+          "contrast_std": {
+            "mean": 48.46223450633899,
+            "std": 10.122859461252805
+          },
+          "mean_val": 123.83690218253966,
+          "contrast": 48.46223450633899,
+          "rb_ratio": 1.0922837482427659,
+          "psnr_mean": 19.7212400036899,
+          "ssim_mean": 0.7284996545128221,
+          "channel_shift_mean": 21.42727976190476
+        }
+      },
+      "entry_id": "ffb41404",
+      "created_at": "2026-11-21 16:54:55"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.35,
+        "new": 1.1
+      },
+      "rationale": "线性缩放整体亮度/对比度，补偿暗部或雾感残留",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 16.730093491062867,
+          "std": 3.581300892206835
+        },
+        "ssim": {
+          "mean": 0.7193839506467071,
+          "std": 0.10362597655983719
+        },
+        "channel_shift": {
+          "mean": 32.904812500000006,
+          "std": 21.29437369215865
+        },
+        "contrast_std": {
+          "mean": 42.02577056212983,
+          "std": 8.779106797680884
+        },
+        "mean_val": 107.17620952380953,
+        "contrast": 42.02577056212983,
+        "rb_ratio": 1.0926201082914115,
+        "psnr_mean": 16.730093491062867,
+        "ssim_mean": 0.7193839506467071,
+        "channel_shift_mean": 32.904812500000006
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 19.7212400036899,
+            "std": 4.5763539820771895
+          },
+          "ssim": {
+            "mean": 0.7284996545128221,
+            "std": 0.09171579681778642
+          },
+          "channel_shift": {
+            "mean": 21.42727976190476,
+            "std": 19.813886104501837
+          },
+          "contrast_std": {
+            "mean": 48.46223450633899,
+            "std": 10.122859461252805
+          },
+          "mean_val": 123.83690218253966,
+          "contrast": 48.46223450633899,
+          "rb_ratio": 1.0922837482427659,
+          "psnr_mean": 19.7212400036899,
+          "ssim_mean": 0.7284996545128221,
+          "channel_shift_mean": 21.42727976190476
+        }
+      },
+      "entry_id": "fc2e14a7",
+      "created_at": "2026-11-21 16:54:58"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.35,
+        "new": 1.2
+      },
+      "rationale": "线性缩放整体亮度/对比度，补偿暗部或雾感残留",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 18.239599862359665,
+          "std": 4.211571769329954
+        },
+        "ssim": {
+          "mean": 0.7259726130886712,
+          "std": 0.09902831380008931
+        },
+        "channel_shift": {
+          "mean": 26.486323015873012,
+          "std": 21.925003222790135
+        },
+        "contrast_std": {
+          "mean": 44.64036251927407,
+          "std": 9.32518597756474
+        },
+        "mean_val": 114.0304498015873,
+        "contrast": 44.64036251927407,
+        "rb_ratio": 1.0922965143942214,
+        "psnr_mean": 18.239599862359665,
+        "ssim_mean": 0.7259726130886712,
+        "channel_shift_mean": 26.486323015873012
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 19.7212400036899,
+            "std": 4.5763539820771895
+          },
+          "ssim": {
+            "mean": 0.7284996545128221,
+            "std": 0.09171579681778642
+          },
+          "channel_shift": {
+            "mean": 21.42727976190476,
+            "std": 19.813886104501837
+          },
+          "contrast_std": {
+            "mean": 48.46223450633899,
+            "std": 10.122859461252805
+          },
+          "mean_val": 123.83690218253966,
+          "contrast": 48.46223450633899,
+          "rb_ratio": 1.0922837482427659,
+          "psnr_mean": 19.7212400036899,
+          "ssim_mean": 0.7284996545128221,
+          "channel_shift_mean": 21.42727976190476
+        }
+      },
+      "entry_id": "82eaaf63",
+      "created_at": "2026-11-21 16:55:01"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "preprocess",
+        "key": "white_balance",
+        "old": "none",
+        "new": "grayworld"
+      },
+      "rationale": "灰度世界白平衡校正色偏",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 19.974079073078055,
+          "std": 4.536800252617655
+        },
+        "ssim": {
+          "mean": 0.7298851143723494,
+          "std": 0.09045135701079475
+        },
+        "channel_shift": {
+          "mean": 20.536780357142852,
+          "std": 19.500843253317658
+        },
+        "contrast_std": {
+          "mean": 48.934287360031796,
+          "std": 10.091699207831766
+        },
+        "mean_val": 124.70000912698414,
+        "contrast": 48.934287360031796,
+        "rb_ratio": 1.0418766325150084,
+        "psnr_mean": 19.974079073078055,
+        "ssim_mean": 0.7298851143723494,
+        "channel_shift_mean": 20.536780357142852
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 19.7212400036899,
+            "std": 4.5763539820771895
+          },
+          "ssim": {
+            "mean": 0.7284996545128221,
+            "std": 0.09171579681778642
+          },
+          "channel_shift": {
+            "mean": 21.42727976190476,
+            "std": 19.813886104501837
+          },
+          "contrast_std": {
+            "mean": 48.46223450633899,
+            "std": 10.122859461252805
+          },
+          "mean_val": 123.83690218253966,
+          "contrast": 48.46223450633899,
+          "rb_ratio": 1.0922837482427659,
+          "psnr_mean": 19.7212400036899,
+          "ssim_mean": 0.7284996545128221,
+          "channel_shift_mean": 21.42727976190476
+        }
+      },
+      "entry_id": "a11b9d1b",
+      "created_at": "2026-11-21 16:55:04"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "preprocess",
+        "key": "stretch",
+        "old": null,
+        "new": [
+          1,
+          99
+        ]
+      },
+      "rationale": "百分号对比度拉伸，扩展动态范围",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 12.562705199465926,
+          "std": 2.3867025496779943
+        },
+        "ssim": {
+          "mean": 0.6465333561721271,
+          "std": 0.08042335187523955
+        },
+        "channel_shift": {
+          "mean": 56.22964166666667,
+          "std": 17.701092710314928
+        },
+        "contrast_std": {
+          "mean": 58.02237808136982,
+          "std": 12.11737706662336
+        },
+        "mean_val": 196.31066369047622,
+        "contrast": 58.02237808136982,
+        "rb_ratio": 1.0773385367424217,
+        "psnr_mean": 12.562705199465926,
+        "ssim_mean": 0.6465333561721271,
+        "channel_shift_mean": 56.22964166666667
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 19.7212400036899,
+            "std": 4.5763539820771895
+          },
+          "ssim": {
+            "mean": 0.7284996545128221,
+            "std": 0.09171579681778642
+          },
+          "channel_shift": {
+            "mean": 21.42727976190476,
+            "std": 19.813886104501837
+          },
+          "contrast_std": {
+            "mean": 48.46223450633899,
+            "std": 10.122859461252805
+          },
+          "mean_val": 123.83690218253966,
+          "contrast": 48.46223450633899,
+          "rb_ratio": 1.0922837482427659,
+          "psnr_mean": 19.7212400036899,
+          "ssim_mean": 0.7284996545128221,
+          "channel_shift_mean": 21.42727976190476
+        }
+      },
+      "entry_id": "bff00e58",
+      "created_at": "2026-11-21 16:55:07"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "combo",
+        "key": "gain+gamma",
+        "old": null,
+        "new": [
+          {
+            "stage": "postprocess",
+            "key": "gain",
+            "old": 1.0,
+            "new": 1.1
+          },
+          {
+            "stage": "postprocess",
+            "key": "gamma",
+            "old": null,
+            "new": 0.7
+          }
+        ]
+      },
+      "rationale": "组合两条改进轴: gain + gamma",
+      "pred_outcome": {
+        "direction": "expect additive improvement"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 16.730093491062867,
+          "std": 3.581300892206835
+        },
+        "ssim": {
+          "mean": 0.7193839506467071,
+          "std": 0.10362597655983719
+        },
+        "channel_shift": {
+          "mean": 32.904812500000006,
+          "std": 21.29437369215865
+        },
+        "contrast_std": {
+          "mean": 42.02577056212983,
+          "std": 8.779106797680884
+        },
+        "mean_val": 107.17620952380953,
+        "contrast": 42.02577056212983,
+        "rb_ratio": 1.0926201082914115,
+        "psnr_mean": 16.730093491062867,
+        "ssim_mean": 0.7193839506467071,
+        "channel_shift_mean": 32.904812500000006
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 7,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 19.7212400036899,
+            "std": 4.5763539820771895
+          },
+          "ssim": {
+            "mean": 0.7284996545128221,
+            "std": 0.09171579681778642
+          },
+          "channel_shift": {
+            "mean": 21.42727976190476,
+            "std": 19.813886104501837
+          },
+          "contrast_std": {
+            "mean": 48.46223450633899,
+            "std": 10.122859461252805
+          },
+          "mean_val": 123.83690218253966,
+          "contrast": 48.46223450633899,
+          "rb_ratio": 1.0922837482427659,
+          "psnr_mean": 19.7212400036899,
+          "ssim_mean": 0.7284996545128221,
+          "channel_shift_mean": 21.42727976190476
+        }
+      },
+      "entry_id": "59270eb3",
+      "created_at": "2026-11-21 16:55:10"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "channel_gain",
+        "old": null,
+        "new": [
+          0.92,
+          1.0,
+          1.0
+        ]
+      },
+      "rationale": "R/B 独立通道增益，校正水下/偏色",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 18.572360901899373,
+          "std": 1.960423391038379
+        },
+        "ssim": {
+          "mean": 0.8569221814451766,
+          "std": 0.0507048618550478
+        },
+        "channel_shift": {
+          "mean": 15.752352276031536,
+          "std": 9.461826615554944
+        },
+        "contrast_std": {
+          "mean": 53.18385239728735,
+          "std": 9.466585771265665
+        },
+        "mean_val": 127.81620418713796,
+        "contrast": 53.18385239728735,
+        "rb_ratio": 0.9948400992206756,
+        "psnr_mean": 18.572360901899373,
+        "ssim_mean": 0.8569221814451766,
+        "channel_shift_mean": 15.752352276031536
+      },
+      "verdict": "improved",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 18.180566576953428,
+            "std": 1.9850465424613748
+          },
+          "ssim": {
+            "mean": 0.8548447933892246,
+            "std": 0.05150875309943788
+          },
+          "channel_shift": {
+            "mean": 19.366170005802523,
+            "std": 9.912333223647506
+          },
+          "contrast_std": {
+            "mean": 54.57667622683485,
+            "std": 9.75051538411961
+          },
+          "mean_val": 131.62700081351036,
+          "contrast": 54.57667622683485,
+          "rb_ratio": 1.0855440068228244,
+          "psnr_mean": 18.180566576953428,
+          "ssim_mean": 0.8548447933892246,
+          "channel_shift_mean": 19.366170005802523
+        }
+      },
+      "entry_id": "750c224c",
+      "created_at": "2026-11-21 16:55:35"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "channel_gain",
+        "old": null,
+        "new": [
+          0.95,
+          1.0,
+          1.02
+        ]
+      },
+      "rationale": "R/B 独立通道增益，校正水下/偏色",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 18.4537021211703,
+          "std": 2.006091231408044
+        },
+        "ssim": {
+          "mean": 0.8562426299483811,
+          "std": 0.05122627669195992
+        },
+        "channel_shift": {
+          "mean": 17.593102532579138,
+          "std": 9.826446947182914
+        },
+        "contrast_std": {
+          "mean": 54.07688472922808,
+          "std": 9.632688858158762
+        },
+        "mean_val": 129.86496086161188,
+        "contrast": 54.07688472922808,
+        "rb_ratio": 1.0112484289458346,
+        "psnr_mean": 18.4537021211703,
+        "ssim_mean": 0.8562426299483811,
+        "channel_shift_mean": 17.593102532579138
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 18.572360901899373,
+            "std": 1.960423391038379
+          },
+          "ssim": {
+            "mean": 0.8569221814451766,
+            "std": 0.0507048618550478
+          },
+          "channel_shift": {
+            "mean": 15.752352276031536,
+            "std": 9.461826615554944
+          },
+          "contrast_std": {
+            "mean": 53.18385239728735,
+            "std": 9.466585771265665
+          },
+          "mean_val": 127.81620418713796,
+          "contrast": 53.18385239728735,
+          "rb_ratio": 0.9948400992206756,
+          "psnr_mean": 18.572360901899373,
+          "ssim_mean": 0.8569221814451766,
+          "channel_shift_mean": 15.752352276031536
+        }
+      },
+      "entry_id": "ef1bd2ff",
+      "created_at": "2026-11-21 16:55:41"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "preprocess",
+        "key": "white_balance",
+        "old": "none",
+        "new": "grayworld"
+      },
+      "rationale": "灰度世界白平衡校正色偏",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 18.32767232661376,
+          "std": 1.9580543410496598
+        },
+        "ssim": {
+          "mean": 0.8554525572206084,
+          "std": 0.050193128101788255
+        },
+        "channel_shift": {
+          "mean": 16.76167880275327,
+          "std": 8.79095778407794
+        },
+        "contrast_std": {
+          "mean": 53.30735888599176,
+          "std": 9.616844122870184
+        },
+        "mean_val": 127.73684405384931,
+        "contrast": 53.30735888599176,
+        "rb_ratio": 0.9835642128831656,
+        "psnr_mean": 18.32767232661376,
+        "ssim_mean": 0.8554525572206084,
+        "channel_shift_mean": 16.76167880275327
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 18.572360901899373,
+            "std": 1.960423391038379
+          },
+          "ssim": {
+            "mean": 0.8569221814451766,
+            "std": 0.0507048618550478
+          },
+          "channel_shift": {
+            "mean": 15.752352276031536,
+            "std": 9.461826615554944
+          },
+          "contrast_std": {
+            "mean": 53.18385239728735,
+            "std": 9.466585771265665
+          },
+          "mean_val": 127.81620418713796,
+          "contrast": 53.18385239728735,
+          "rb_ratio": 0.9948400992206756,
+          "psnr_mean": 18.572360901899373,
+          "ssim_mean": 0.8569221814451766,
+          "channel_shift_mean": 15.752352276031536
+        }
+      },
+      "entry_id": "b4de51d1",
+      "created_at": "2026-11-21 16:55:46"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gamma",
+        "old": null,
+        "new": 1.15
+      },
+      "rationale": "曲线映射，非线性抬升暗部或压制高光",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 20.134580987393242,
+          "std": 2.006956227839522
+        },
+        "ssim": {
+          "mean": 0.8835208721871953,
+          "std": 0.046792408992949217
+        },
+        "channel_shift": {
+          "mean": 8.10545414047851,
+          "std": 7.647439040992588
+        },
+        "contrast_std": {
+          "mean": 55.35716009434773,
+          "std": 9.743191457717822
+        },
+        "mean_val": 117.36294119294602,
+        "contrast": 55.35716009434773,
+        "rb_ratio": 1.0033371006614369,
+        "psnr_mean": 20.134580987393242,
+        "ssim_mean": 0.8835208721871953,
+        "channel_shift_mean": 8.10545414047851
+      },
+      "verdict": "improved",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 18.572360901899373,
+            "std": 1.960423391038379
+          },
+          "ssim": {
+            "mean": 0.8569221814451766,
+            "std": 0.0507048618550478
+          },
+          "channel_shift": {
+            "mean": 15.752352276031536,
+            "std": 9.461826615554944
+          },
+          "contrast_std": {
+            "mean": 53.18385239728735,
+            "std": 9.466585771265665
+          },
+          "mean_val": 127.81620418713796,
+          "contrast": 53.18385239728735,
+          "rb_ratio": 0.9948400992206756,
+          "psnr_mean": 18.572360901899373,
+          "ssim_mean": 0.8569221814451766,
+          "channel_shift_mean": 15.752352276031536
+        }
+      },
+      "entry_id": "c211c4a3",
+      "created_at": "2026-11-21 16:55:51"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gamma",
+        "old": null,
+        "new": 1.25
+      },
+      "rationale": "曲线映射，非线性抬升暗部或压制高光",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 20.481859487552935,
+          "std": 1.9479520762214038
+        },
+        "ssim": {
+          "mean": 0.8934267819072939,
+          "std": 0.04380494598141668
+        },
+        "channel_shift": {
+          "mean": 7.703088089466316,
+          "std": 6.408029143237942
+        },
+        "contrast_std": {
+          "mean": 56.40643746043945,
+          "std": 9.93264311124688
+        },
+        "mean_val": 111.46803025662034,
+        "contrast": 56.40643746043945,
+        "rb_ratio": 1.008318183834026,
+        "psnr_mean": 20.481859487552935,
+        "ssim_mean": 0.8934267819072939,
+        "channel_shift_mean": 7.703088089466316
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 20.134580987393242,
+            "std": 2.006956227839522
+          },
+          "ssim": {
+            "mean": 0.8835208721871953,
+            "std": 0.046792408992949217
+          },
+          "channel_shift": {
+            "mean": 8.10545414047851,
+            "std": 7.647439040992588
+          },
+          "contrast_std": {
+            "mean": 55.35716009434773,
+            "std": 9.743191457717822
+          },
+          "mean_val": 117.36294119294602,
+          "contrast": 55.35716009434773,
+          "rb_ratio": 1.0033371006614369,
+          "psnr_mean": 20.134580987393242,
+          "ssim_mean": 0.8835208721871953,
+          "channel_shift_mean": 8.10545414047851
+        }
+      },
+      "entry_id": "3234a688",
+      "created_at": "2026-11-21 16:55:57"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 0.95
+      },
+      "rationale": "线性缩放整体亮度/对比度，补偿暗部或雾感残留",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 19.533649012680556,
+          "std": 1.8005002504006429
+        },
+        "ssim": {
+          "mean": 0.8816284510609287,
+          "std": 0.04436308422696194
+        },
+        "channel_shift": {
+          "mean": 7.7657182992567675,
+          "std": 6.287606465633696
+        },
+        "contrast_std": {
+          "mean": 52.15119089073125,
+          "std": 9.178455832494492
+        },
+        "mean_val": 110.12740240109483,
+        "contrast": 52.15119089073125,
+        "rb_ratio": 1.0033327839979767,
+        "psnr_mean": 19.533649012680556,
+        "ssim_mean": 0.8816284510609287,
+        "channel_shift_mean": 7.7657182992567675
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 20.134580987393242,
+            "std": 2.006956227839522
+          },
+          "ssim": {
+            "mean": 0.8835208721871953,
+            "std": 0.046792408992949217
+          },
+          "channel_shift": {
+            "mean": 8.10545414047851,
+            "std": 7.647439040992588
+          },
+          "contrast_std": {
+            "mean": 55.35716009434773,
+            "std": 9.743191457717822
+          },
+          "mean_val": 117.36294119294602,
+          "contrast": 55.35716009434773,
+          "rb_ratio": 1.0033371006614369,
+          "psnr_mean": 20.134580987393242,
+          "ssim_mean": 0.8835208721871953,
+          "channel_shift_mean": 8.10545414047851
+        }
+      },
+      "entry_id": "a0f8fe6c",
+      "created_at": "2026-11-21 16:56:02"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.05
+      },
+      "rationale": "线性缩放整体亮度/对比度，补偿暗部或雾感残留",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 20.116083666924364,
+          "std": 2.231978397792491
+        },
+        "ssim": {
+          "mean": 0.8824008481526537,
+          "std": 0.04866756461280377
+        },
+        "channel_shift": {
+          "mean": 11.920965167803875,
+          "std": 9.401205562740211
+        },
+        "contrast_std": {
+          "mean": 58.397294446505654,
+          "std": 10.24783691890583
+        },
+        "mean_val": 123.60120177388087,
+        "contrast": 58.397294446505654,
+        "rb_ratio": 1.0038507508819563,
+        "psnr_mean": 20.116083666924364,
+        "ssim_mean": 0.8824008481526537,
+        "channel_shift_mean": 11.920965167803875
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 20.134580987393242,
+            "std": 2.006956227839522
+          },
+          "ssim": {
+            "mean": 0.8835208721871953,
+            "std": 0.046792408992949217
+          },
+          "channel_shift": {
+            "mean": 8.10545414047851,
+            "std": 7.647439040992588
+          },
+          "contrast_std": {
+            "mean": 55.35716009434773,
+            "std": 9.743191457717822
+          },
+          "mean_val": 117.36294119294602,
+          "contrast": 55.35716009434773,
+          "rb_ratio": 1.0033371006614369,
+          "psnr_mean": 20.134580987393242,
+          "ssim_mean": 0.8835208721871953,
+          "channel_shift_mean": 8.10545414047851
+        }
+      },
+      "entry_id": "fd987749",
+      "created_at": "2026-11-21 16:56:08"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.12
+      },
+      "rationale": "线性缩放整体亮度/对比度，补偿暗部或雾感残留",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 19.000501804271952,
+          "std": 2.4077544068157417
+        },
+        "ssim": {
+          "mean": 0.8734792175370001,
+          "std": 0.05162464353402025
+        },
+        "channel_shift": {
+          "mean": 20.22050731016368,
+          "std": 10.309427311364114
+        },
+        "contrast_std": {
+          "mean": 61.7514828548879,
+          "std": 10.486103618912075
+        },
+        "mean_val": 132.5488565648012,
+        "contrast": 61.7514828548879,
+        "rb_ratio": 1.0028880363198043,
+        "psnr_mean": 19.000501804271952,
+        "ssim_mean": 0.8734792175370001,
+        "channel_shift_mean": 20.22050731016368
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 20.134580987393242,
+            "std": 2.006956227839522
+          },
+          "ssim": {
+            "mean": 0.8835208721871953,
+            "std": 0.046792408992949217
+          },
+          "channel_shift": {
+            "mean": 8.10545414047851,
+            "std": 7.647439040992588
+          },
+          "contrast_std": {
+            "mean": 55.35716009434773,
+            "std": 9.743191457717822
+          },
+          "mean_val": 117.36294119294602,
+          "contrast": 55.35716009434773,
+          "rb_ratio": 1.0033371006614369,
+          "psnr_mean": 20.134580987393242,
+          "ssim_mean": 0.8835208721871953,
+          "channel_shift_mean": 8.10545414047851
+        }
+      },
+      "entry_id": "0654518e",
+      "created_at": "2026-11-21 16:56:13"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gamma",
+        "old": 1.15,
+        "new": 1.25
+      },
+      "rationale": "曲线映射，非线性抬升暗部或压制高光",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 20.481859487552935,
+          "std": 1.9479520762214038
+        },
+        "ssim": {
+          "mean": 0.8934267819072939,
+          "std": 0.04380494598141668
+        },
+        "channel_shift": {
+          "mean": 7.703088089466316,
+          "std": 6.408029143237942
+        },
+        "contrast_std": {
+          "mean": 56.40643746043945,
+          "std": 9.93264311124688
+        },
+        "mean_val": 111.46803025662034,
+        "contrast": 56.40643746043945,
+        "rb_ratio": 1.008318183834026,
+        "psnr_mean": 20.481859487552935,
+        "ssim_mean": 0.8934267819072939,
+        "channel_shift_mean": 7.703088089466316
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 20.134580987393242,
+            "std": 2.006956227839522
+          },
+          "ssim": {
+            "mean": 0.8835208721871953,
+            "std": 0.046792408992949217
+          },
+          "channel_shift": {
+            "mean": 8.10545414047851,
+            "std": 7.647439040992588
+          },
+          "contrast_std": {
+            "mean": 55.35716009434773,
+            "std": 9.743191457717822
+          },
+          "mean_val": 117.36294119294602,
+          "contrast": 55.35716009434773,
+          "rb_ratio": 1.0033371006614369,
+          "psnr_mean": 20.134580987393242,
+          "ssim_mean": 0.8835208721871953,
+          "channel_shift_mean": 8.10545414047851
+        }
+      },
+      "entry_id": "bfd001ca",
+      "created_at": "2026-11-21 16:56:18"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "channel_gain",
+        "old": [
+          0.92,
+          1.0,
+          1.0
+        ],
+        "new": [
+          0.95,
+          1.0,
+          1.02
+        ]
+      },
+      "rationale": "R/B 独立通道增益，校正水下/偏色",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 20.22553852559307,
+          "std": 2.082038200974536
+        },
+        "ssim": {
+          "mean": 0.883859746648443,
+          "std": 0.04733178920928866
+        },
+        "channel_shift": {
+          "mean": 8.938886554597469,
+          "std": 8.251881526895785
+        },
+        "contrast_std": {
+          "mean": 56.287948063785116,
+          "std": 9.910465896867755
+        },
+        "mean_val": 119.240408213932,
+        "contrast": 56.287948063785116,
+        "rb_ratio": 1.0204197199304106,
+        "psnr_mean": 20.22553852559307,
+        "ssim_mean": 0.883859746648443,
+        "channel_shift_mean": 8.938886554597469
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 20.134580987393242,
+            "std": 2.006956227839522
+          },
+          "ssim": {
+            "mean": 0.8835208721871953,
+            "std": 0.046792408992949217
+          },
+          "channel_shift": {
+            "mean": 8.10545414047851,
+            "std": 7.647439040992588
+          },
+          "contrast_std": {
+            "mean": 55.35716009434773,
+            "std": 9.743191457717822
+          },
+          "mean_val": 117.36294119294602,
+          "contrast": 55.35716009434773,
+          "rb_ratio": 1.0033371006614369,
+          "psnr_mean": 20.134580987393242,
+          "ssim_mean": 0.8835208721871953,
+          "channel_shift_mean": 8.10545414047851
+        }
+      },
+      "entry_id": "bdcb54cf",
+      "created_at": "2026-11-21 16:56:24"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "preprocess",
+        "key": "stretch",
+        "old": null,
+        "new": [
+          2,
+          98
+        ]
+      },
+      "rationale": "百分号对比度拉伸，扩展动态范围",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 17.642239784374222,
+          "std": 2.3302616835742764
+        },
+        "ssim": {
+          "mean": 0.742284740453328,
+          "std": 0.0652200274229937
+        },
+        "channel_shift": {
+          "mean": 24.032163512194373,
+          "std": 11.061622763445401
+        },
+        "contrast_std": {
+          "mean": 79.62397635076336,
+          "std": 11.864556246815814
+        },
+        "mean_val": 89.8693483450696,
+        "contrast": 79.62397635076336,
+        "rb_ratio": 0.9348486110708523,
+        "psnr_mean": 17.642239784374222,
+        "ssim_mean": 0.742284740453328,
+        "channel_shift_mean": 24.032163512194373
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 20.134580987393242,
+            "std": 2.006956227839522
+          },
+          "ssim": {
+            "mean": 0.8835208721871953,
+            "std": 0.046792408992949217
+          },
+          "channel_shift": {
+            "mean": 8.10545414047851,
+            "std": 7.647439040992588
+          },
+          "contrast_std": {
+            "mean": 55.35716009434773,
+            "std": 9.743191457717822
+          },
+          "mean_val": 117.36294119294602,
+          "contrast": 55.35716009434773,
+          "rb_ratio": 1.0033371006614369,
+          "psnr_mean": 20.134580987393242,
+          "ssim_mean": 0.8835208721871953,
+          "channel_shift_mean": 8.10545414047851
+        }
+      },
+      "entry_id": "eeb27b66",
+      "created_at": "2026-11-21 16:56:30"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "preprocess",
+        "key": "stretch",
+        "old": null,
+        "new": [
+          1,
+          99
+        ]
+      },
+      "rationale": "百分号对比度拉伸，扩展动态范围",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 17.92670198289266,
+          "std": 2.2789541713731305
+        },
+        "ssim": {
+          "mean": 0.7599501419213806,
+          "std": 0.06321458666348578
+        },
+        "channel_shift": {
+          "mean": 23.642162479506588,
+          "std": 10.294554553311144
+        },
+        "contrast_std": {
+          "mean": 78.02792187084763,
+          "std": 12.144795708813357
+        },
+        "mean_val": 90.11373940101994,
+        "contrast": 78.02792187084763,
+        "rb_ratio": 0.931870638708024,
+        "psnr_mean": 17.92670198289266,
+        "ssim_mean": 0.7599501419213806,
+        "channel_shift_mean": 23.642162479506588
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 20.134580987393242,
+            "std": 2.006956227839522
+          },
+          "ssim": {
+            "mean": 0.8835208721871953,
+            "std": 0.046792408992949217
+          },
+          "channel_shift": {
+            "mean": 8.10545414047851,
+            "std": 7.647439040992588
+          },
+          "contrast_std": {
+            "mean": 55.35716009434773,
+            "std": 9.743191457717822
+          },
+          "mean_val": 117.36294119294602,
+          "contrast": 55.35716009434773,
+          "rb_ratio": 1.0033371006614369,
+          "psnr_mean": 20.134580987393242,
+          "ssim_mean": 0.8835208721871953,
+          "channel_shift_mean": 8.10545414047851
+        }
+      },
+      "entry_id": "68d8bffe",
+      "created_at": "2026-11-21 16:56:35"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "sharpen",
+        "old": null,
+        "new": 0.3
+      },
+      "rationale": "Unsharp Mask 补偿去模糊/去噪带来的细节损失",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 20.18103391968657,
+          "std": 1.9946378393219688
+        },
+        "ssim": {
+          "mean": 0.8904225755124514,
+          "std": 0.047350488062269214
+        },
+        "channel_shift": {
+          "mean": 7.983896208822751,
+          "std": 7.555411471752292
+        },
+        "contrast_std": {
+          "mean": 56.14943016436558,
+          "std": 9.63470987318764
+        },
+        "mean_val": 117.01687713109318,
+        "contrast": 56.14943016436558,
+        "rb_ratio": 1.0034387288616466,
+        "psnr_mean": 20.18103391968657,
+        "ssim_mean": 0.8904225755124514,
+        "channel_shift_mean": 7.983896208822751
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 20.134580987393242,
+            "std": 2.006956227839522
+          },
+          "ssim": {
+            "mean": 0.8835208721871953,
+            "std": 0.046792408992949217
+          },
+          "channel_shift": {
+            "mean": 8.10545414047851,
+            "std": 7.647439040992588
+          },
+          "contrast_std": {
+            "mean": 55.35716009434773,
+            "std": 9.743191457717822
+          },
+          "mean_val": 117.36294119294602,
+          "contrast": 55.35716009434773,
+          "rb_ratio": 1.0033371006614369,
+          "psnr_mean": 20.134580987393242,
+          "ssim_mean": 0.8835208721871953,
+          "channel_shift_mean": 8.10545414047851
+        }
+      },
+      "entry_id": "7c24a929",
+      "created_at": "2026-11-21 16:56:41"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "combo",
+        "key": "channel_gain+gamma",
+        "old": null,
+        "new": [
+          {
+            "stage": "postprocess",
+            "key": "channel_gain",
+            "old": null,
+            "new": [
+              0.92,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "stage": "postprocess",
+            "key": "gamma",
+            "old": null,
+            "new": 1.15
+          }
+        ]
+      },
+      "rationale": "组合两条改进轴: channel_gain + gamma",
+      "pred_outcome": {
+        "direction": "expect additive improvement"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 20.134580987393242,
+          "std": 2.006956227839522
+        },
+        "ssim": {
+          "mean": 0.8835208721871953,
+          "std": 0.046792408992949217
+        },
+        "channel_shift": {
+          "mean": 8.10545414047851,
+          "std": 7.647439040992588
+        },
+        "contrast_std": {
+          "mean": 55.35716009434773,
+          "std": 9.743191457717822
+        },
+        "mean_val": 117.36294119294602,
+        "contrast": 55.35716009434773,
+        "rb_ratio": 1.0033371006614369,
+        "psnr_mean": 20.134580987393242,
+        "ssim_mean": 0.8835208721871953,
+        "channel_shift_mean": 8.10545414047851
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 50,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 20.134580987393242,
+            "std": 2.006956227839522
+          },
+          "ssim": {
+            "mean": 0.8835208721871953,
+            "std": 0.046792408992949217
+          },
+          "channel_shift": {
+            "mean": 8.10545414047851,
+            "std": 7.647439040992588
+          },
+          "contrast_std": {
+            "mean": 55.35716009434773,
+            "std": 9.743191457717822
+          },
+          "mean_val": 117.36294119294602,
+          "contrast": 55.35716009434773,
+          "rb_ratio": 1.0033371006614369,
+          "psnr_mean": 20.134580987393242,
+          "ssim_mean": 0.8835208721871953,
+          "channel_shift_mean": 8.10545414047851
+        }
+      },
+      "entry_id": "3095bc26",
+      "created_at": "2026-11-21 16:56:46"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "tta_flip",
+        "old": false,
+        "new": true
+      },
+      "rationale": "水平翻转推理后与原图输出平均，抑制生成伪影、稳定结构",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 17.54401161264195,
+          "std": 2.8415383420360905
+        },
+        "ssim": {
+          "mean": 0.73623309492158,
+          "std": 0.0756943585121604
+        },
+        "channel_shift": {
+          "mean": 19.431612650553383,
+          "std": 11.866173820710609
+        },
+        "contrast_std": {
+          "mean": 49.36821639010839,
+          "std": 8.084252088366854
+        },
+        "mean_val": 116.32622350056963,
+        "contrast": 49.36821639010839,
+        "rb_ratio": 1.2890651291330528,
+        "uiqm": {
+          "mean": 0.008283041013925496,
+          "std": 4.109738273486433
+        },
+        "psnr_mean": 17.54401161264195,
+        "ssim_mean": 0.73623309492158,
+        "channel_shift_mean": 19.431612650553383
+      },
+      "verdict": "improved",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 20,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 16.780668404803848,
+            "std": 2.4704827252685755
+          },
+          "ssim": {
+            "mean": 0.670967881023302,
+            "std": 0.0904076456284784
+          },
+          "channel_shift": {
+            "mean": 19.183061726888024,
+            "std": 11.659459769606132
+          },
+          "contrast_std": {
+            "mean": 51.05512547608977,
+            "std": 7.782353072716613
+          },
+          "mean_val": 116.59579594930014,
+          "contrast": 51.05512547608977,
+          "rb_ratio": 1.2851471758009245,
+          "uiqm": {
+            "mean": 1.898917998323738,
+            "std": 4.885330132988626
+          },
+          "psnr_mean": 16.780668404803848,
+          "ssim_mean": 0.670967881023302,
+          "channel_shift_mean": 19.183061726888024
+        }
+      },
+      "entry_id": "bf249cc4",
+      "created_at": "2026-11-21 16:57:01"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "channel_gain",
+        "old": null,
+        "new": [
+          1.05,
+          1.0,
+          0.95
+        ]
+      },
+      "rationale": "R/B 独立通道增益，校正水下/偏色",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 17.1527429343809,
+          "std": 2.869659820172681
+        },
+        "ssim": {
+          "mean": 0.7338318691355552,
+          "std": 0.07467150434192556
+        },
+        "channel_shift": {
+          "mean": 21.6197390238444,
+          "std": 12.62861338457968
+        },
+        "contrast_std": {
+          "mean": 49.31717076486194,
+          "std": 8.120493326244711
+        },
+        "mean_val": 116.40387064615886,
+        "contrast": 49.31717076486194,
+        "rb_ratio": 1.4270865559071828,
+        "uiqm": {
+          "mean": -1.8260752640701838,
+          "std": 3.083376852863667
+        },
+        "psnr_mean": 17.1527429343809,
+        "ssim_mean": 0.7338318691355552,
+        "channel_shift_mean": 21.6197390238444
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 20,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 17.54401161264195,
+            "std": 2.8415383420360905
+          },
+          "ssim": {
+            "mean": 0.73623309492158,
+            "std": 0.0756943585121604
+          },
+          "channel_shift": {
+            "mean": 19.431612650553383,
+            "std": 11.866173820710609
+          },
+          "contrast_std": {
+            "mean": 49.36821639010839,
+            "std": 8.084252088366854
+          },
+          "mean_val": 116.32622350056963,
+          "contrast": 49.36821639010839,
+          "rb_ratio": 1.2890651291330528,
+          "uiqm": {
+            "mean": 0.008283041013925496,
+            "std": 4.109738273486433
+          },
+          "psnr_mean": 17.54401161264195,
+          "ssim_mean": 0.73623309492158,
+          "channel_shift_mean": 19.431612650553383
+        }
+      },
+      "entry_id": "7ab1d599",
+      "created_at": "2026-11-21 16:57:02"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "channel_gain",
+        "old": null,
+        "new": [
+          1.03,
+          1.0,
+          0.97
+        ]
+      },
+      "rationale": "R/B 独立通道增益，校正水下/偏色",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 17.33426143762268,
+          "std": 2.8627814651301353
+        },
+        "ssim": {
+          "mean": 0.7350144552847367,
+          "std": 0.07508502033474469
+        },
+        "channel_shift": {
+          "mean": 20.607302347819015,
+          "std": 12.40566550430698
+        },
+        "contrast_std": {
+          "mean": 49.339861967486264,
+          "std": 8.105599333187602
+        },
+        "mean_val": 116.23429285685222,
+        "contrast": 49.339861967486264,
+        "rb_ratio": 1.37091858078124,
+        "uiqm": {
+          "mean": -1.0576178734019401,
+          "std": 3.426581121116388
+        },
+        "psnr_mean": 17.33426143762268,
+        "ssim_mean": 0.7350144552847367,
+        "channel_shift_mean": 20.607302347819015
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 20,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 17.54401161264195,
+            "std": 2.8415383420360905
+          },
+          "ssim": {
+            "mean": 0.73623309492158,
+            "std": 0.0756943585121604
+          },
+          "channel_shift": {
+            "mean": 19.431612650553383,
+            "std": 11.866173820710609
+          },
+          "contrast_std": {
+            "mean": 49.36821639010839,
+            "std": 8.084252088366854
+          },
+          "mean_val": 116.32622350056963,
+          "contrast": 49.36821639010839,
+          "rb_ratio": 1.2890651291330528,
+          "uiqm": {
+            "mean": 0.008283041013925496,
+            "std": 4.109738273486433
+          },
+          "psnr_mean": 17.54401161264195,
+          "ssim_mean": 0.73623309492158,
+          "channel_shift_mean": 19.431612650553383
+        }
+      },
+      "entry_id": "7cdb25c2",
+      "created_at": "2026-11-21 16:57:04"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 0.95
+      },
+      "rationale": "线性缩放整体亮度/对比度，补偿暗部或雾感残留",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 17.423980576254678,
+          "std": 2.6598865774601994
+        },
+        "ssim": {
+          "mean": 0.7380416304871462,
+          "std": 0.07481017117847141
+        },
+        "channel_shift": {
+          "mean": 20.67703348795573,
+          "std": 11.689958824096049
+        },
+        "contrast_std": {
+          "mean": 46.898568146687296,
+          "std": 7.679574847657425
+        },
+        "mean_val": 110.03524602254231,
+        "contrast": 46.898568146687296,
+        "rb_ratio": 1.2907738668145947,
+        "uiqm": {
+          "mean": 0.01697138825014193,
+          "std": 3.904638056993027
+        },
+        "psnr_mean": 17.423980576254678,
+        "ssim_mean": 0.7380416304871462,
+        "channel_shift_mean": 20.67703348795573
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 20,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 17.54401161264195,
+            "std": 2.8415383420360905
+          },
+          "ssim": {
+            "mean": 0.73623309492158,
+            "std": 0.0756943585121604
+          },
+          "channel_shift": {
+            "mean": 19.431612650553383,
+            "std": 11.866173820710609
+          },
+          "contrast_std": {
+            "mean": 49.36821639010839,
+            "std": 8.084252088366854
+          },
+          "mean_val": 116.32622350056963,
+          "contrast": 49.36821639010839,
+          "rb_ratio": 1.2890651291330528,
+          "uiqm": {
+            "mean": 0.008283041013925496,
+            "std": 4.109738273486433
+          },
+          "psnr_mean": 17.54401161264195,
+          "ssim_mean": 0.73623309492158,
+          "channel_shift_mean": 19.431612650553383
+        }
+      },
+      "entry_id": "d1586f13",
+      "created_at": "2026-11-21 16:57:06"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.05
+      },
+      "rationale": "线性缩放整体亮度/对比度，补偿暗部或雾感残留",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 17.319805825267558,
+          "std": 2.8704139435489977
+        },
+        "ssim": {
+          "mean": 0.7314497727022964,
+          "std": 0.0761421135518933
+        },
+        "channel_shift": {
+          "mean": 19.187999216715493,
+          "std": 11.927117044380289
+        },
+        "contrast_std": {
+          "mean": 51.82342636152562,
+          "std": 8.484150830293594
+        },
+        "mean_val": 121.63639831542969,
+        "contrast": 51.82342636152562,
+        "rb_ratio": 1.290627747619064,
+        "uiqm": {
+          "mean": 0.0018864154686027757,
+          "std": 4.313746145661345
+        },
+        "psnr_mean": 17.319805825267558,
+        "ssim_mean": 0.7314497727022964,
+        "channel_shift_mean": 19.187999216715493
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 20,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 17.54401161264195,
+            "std": 2.8415383420360905
+          },
+          "ssim": {
+            "mean": 0.73623309492158,
+            "std": 0.0756943585121604
+          },
+          "channel_shift": {
+            "mean": 19.431612650553383,
+            "std": 11.866173820710609
+          },
+          "contrast_std": {
+            "mean": 49.36821639010839,
+            "std": 8.084252088366854
+          },
+          "mean_val": 116.32622350056963,
+          "contrast": 49.36821639010839,
+          "rb_ratio": 1.2890651291330528,
+          "uiqm": {
+            "mean": 0.008283041013925496,
+            "std": 4.109738273486433
+          },
+          "psnr_mean": 17.54401161264195,
+          "ssim_mean": 0.73623309492158,
+          "channel_shift_mean": 19.431612650553383
+        }
+      },
+      "entry_id": "f737a40d",
+      "created_at": "2026-11-21 16:57:07"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "preprocess",
+        "key": "white_balance",
+        "old": "none",
+        "new": "grayworld"
+      },
+      "rationale": "灰度世界白平衡校正色偏",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 15.76015242602205,
+          "std": 3.4672786403746056
+        },
+        "ssim": {
+          "mean": 0.7026473676250019,
+          "std": 0.08763425340950214
+        },
+        "channel_shift": {
+          "mean": 29.530522918701173,
+          "std": 19.893793436323723
+        },
+        "contrast_std": {
+          "mean": 46.01300609901743,
+          "std": 8.291138744568734
+        },
+        "mean_val": 107.93187052408852,
+        "contrast": 46.01300609901743,
+        "rb_ratio": 1.6064465638420782,
+        "uiqm": {
+          "mean": -3.503089525401444,
+          "std": 4.452540396601047
+        },
+        "psnr_mean": 15.76015242602205,
+        "ssim_mean": 0.7026473676250019,
+        "channel_shift_mean": 29.530522918701173
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 20,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 17.54401161264195,
+            "std": 2.8415383420360905
+          },
+          "ssim": {
+            "mean": 0.73623309492158,
+            "std": 0.0756943585121604
+          },
+          "channel_shift": {
+            "mean": 19.431612650553383,
+            "std": 11.866173820710609
+          },
+          "contrast_std": {
+            "mean": 49.36821639010839,
+            "std": 8.084252088366854
+          },
+          "mean_val": 116.32622350056963,
+          "contrast": 49.36821639010839,
+          "rb_ratio": 1.2890651291330528,
+          "uiqm": {
+            "mean": 0.008283041013925496,
+            "std": 4.109738273486433
+          },
+          "psnr_mean": 17.54401161264195,
+          "ssim_mean": 0.73623309492158,
+          "channel_shift_mean": 19.431612650553383
+        }
+      },
+      "entry_id": "f50a3f3d",
+      "created_at": "2026-11-21 16:57:09"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "grayworld",
+      "harness_edit": {
+        "stage": "backend",
+        "key": "backend",
+        "old": "funie_gan",
+        "new": "grayworld"
+      },
+      "rationale": "在同任务备选冻结后端间切换路线",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 17.453350993291544,
+          "std": 3.830327627339851
+        },
+        "ssim": {
+          "mean": 0.824414615282406,
+          "std": 0.10722597010545516
+        },
+        "channel_shift": {
+          "mean": 23.58173116048177,
+          "std": 14.051681797748184
+        },
+        "contrast_std": {
+          "mean": 48.75744800615492,
+          "std": 9.211613444278493
+        },
+        "mean_val": 113.27079544067382,
+        "contrast": 48.75744800615492,
+        "rb_ratio": 0.9904535167982955,
+        "uiqm": {
+          "mean": 4.674406648499146,
+          "std": 5.336599191179707
+        },
+        "psnr_mean": 17.453350993291544,
+        "ssim_mean": 0.824414615282406,
+        "channel_shift_mean": 23.58173116048177
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 20,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 17.54401161264195,
+            "std": 2.8415383420360905
+          },
+          "ssim": {
+            "mean": 0.73623309492158,
+            "std": 0.0756943585121604
+          },
+          "channel_shift": {
+            "mean": 19.431612650553383,
+            "std": 11.866173820710609
+          },
+          "contrast_std": {
+            "mean": 49.36821639010839,
+            "std": 8.084252088366854
+          },
+          "mean_val": 116.32622350056963,
+          "contrast": 49.36821639010839,
+          "rb_ratio": 1.2890651291330528,
+          "uiqm": {
+            "mean": 0.008283041013925496,
+            "std": 4.109738273486433
+          },
+          "psnr_mean": 17.54401161264195,
+          "ssim_mean": 0.73623309492158,
+          "channel_shift_mean": 19.431612650553383
+        }
+      },
+      "entry_id": "7ae41db3",
+      "created_at": "2026-11-21 16:57:10"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "msr",
+      "harness_edit": {
+        "stage": "backend",
+        "key": "backend",
+        "old": "funie_gan",
+        "new": "msr"
+      },
+      "rationale": "在同任务备选冻结后端间切换路线",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 10.630783844207231,
+          "std": 2.6571156145974055
+        },
+        "ssim": {
+          "mean": 0.6744729917058645,
+          "std": 0.10892294709100168
+        },
+        "channel_shift": {
+          "mean": 63.790916188557944,
+          "std": 19.223929664572662
+        },
+        "contrast_std": {
+          "mean": 49.59323384236923,
+          "std": 8.319010796786593
+        },
+        "mean_val": 177.72427571614585,
+        "contrast": 49.59323384236923,
+        "rb_ratio": 1.044392345040585,
+        "uiqm": {
+          "mean": 5.392060497060493,
+          "std": 6.250741162406114
+        },
+        "psnr_mean": 10.630783844207231,
+        "ssim_mean": 0.6744729917058645,
+        "channel_shift_mean": 63.790916188557944
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 20,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 17.54401161264195,
+            "std": 2.8415383420360905
+          },
+          "ssim": {
+            "mean": 0.73623309492158,
+            "std": 0.0756943585121604
+          },
+          "channel_shift": {
+            "mean": 19.431612650553383,
+            "std": 11.866173820710609
+          },
+          "contrast_std": {
+            "mean": 49.36821639010839,
+            "std": 8.084252088366854
+          },
+          "mean_val": 116.32622350056963,
+          "contrast": 49.36821639010839,
+          "rb_ratio": 1.2890651291330528,
+          "uiqm": {
+            "mean": 0.008283041013925496,
+            "std": 4.109738273486433
+          },
+          "psnr_mean": 17.54401161264195,
+          "ssim_mean": 0.73623309492158,
+          "channel_shift_mean": 19.431612650553383
+        }
+      },
+      "entry_id": "3911832a",
+      "created_at": "2026-11-21 16:57:15"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "channel_gain",
+        "old": null,
+        "new": [
+          1.03,
+          1.0,
+          0.97
+        ]
+      },
+      "rationale": "R/B 独立通道增益，校正水下/偏色",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 17.33426143762268,
+          "std": 2.8627814651301353
+        },
+        "ssim": {
+          "mean": 0.7350144552847367,
+          "std": 0.07508502033474469
+        },
+        "channel_shift": {
+          "mean": 20.607302347819015,
+          "std": 12.40566550430698
+        },
+        "contrast_std": {
+          "mean": 49.339861967486264,
+          "std": 8.105599333187602
+        },
+        "mean_val": 116.23429285685222,
+        "contrast": 49.339861967486264,
+        "rb_ratio": 1.37091858078124,
+        "uiqm": {
+          "mean": -1.0576178734019401,
+          "std": 3.426581121116388
+        },
+        "psnr_mean": 17.33426143762268,
+        "ssim_mean": 0.7350144552847367,
+        "channel_shift_mean": 20.607302347819015
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 20,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 17.54401161264195,
+            "std": 2.8415383420360905
+          },
+          "ssim": {
+            "mean": 0.73623309492158,
+            "std": 0.0756943585121604
+          },
+          "channel_shift": {
+            "mean": 19.431612650553383,
+            "std": 11.866173820710609
+          },
+          "contrast_std": {
+            "mean": 49.36821639010839,
+            "std": 8.084252088366854
+          },
+          "mean_val": 116.32622350056963,
+          "contrast": 49.36821639010839,
+          "rb_ratio": 1.2890651291330528,
+          "uiqm": {
+            "mean": 0.008283041013925496,
+            "std": 4.109738273486433
+          },
+          "psnr_mean": 17.54401161264195,
+          "ssim_mean": 0.73623309492158,
+          "channel_shift_mean": 19.431612650553383
+        }
+      },
+      "entry_id": "c43b532b",
+      "created_at": "2026-11-21 16:57:17"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 0.95
+      },
+      "rationale": "线性缩放整体亮度/对比度，补偿暗部或雾感残留",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 17.423980576254678,
+          "std": 2.6598865774601994
+        },
+        "ssim": {
+          "mean": 0.7380416304871462,
+          "std": 0.07481017117847141
+        },
+        "channel_shift": {
+          "mean": 20.67703348795573,
+          "std": 11.689958824096049
+        },
+        "contrast_std": {
+          "mean": 46.898568146687296,
+          "std": 7.679574847657425
+        },
+        "mean_val": 110.03524602254231,
+        "contrast": 46.898568146687296,
+        "rb_ratio": 1.2907738668145947,
+        "uiqm": {
+          "mean": 0.01697138825014193,
+          "std": 3.904638056993027
+        },
+        "psnr_mean": 17.423980576254678,
+        "ssim_mean": 0.7380416304871462,
+        "channel_shift_mean": 20.67703348795573
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 20,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 17.54401161264195,
+            "std": 2.8415383420360905
+          },
+          "ssim": {
+            "mean": 0.73623309492158,
+            "std": 0.0756943585121604
+          },
+          "channel_shift": {
+            "mean": 19.431612650553383,
+            "std": 11.866173820710609
+          },
+          "contrast_std": {
+            "mean": 49.36821639010839,
+            "std": 8.084252088366854
+          },
+          "mean_val": 116.32622350056963,
+          "contrast": 49.36821639010839,
+          "rb_ratio": 1.2890651291330528,
+          "uiqm": {
+            "mean": 0.008283041013925496,
+            "std": 4.109738273486433
+          },
+          "psnr_mean": 17.54401161264195,
+          "ssim_mean": 0.73623309492158,
+          "channel_shift_mean": 19.431612650553383
+        }
+      },
+      "entry_id": "a08f30b1",
+      "created_at": "2026-11-21 16:57:18"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.05
+      },
+      "rationale": "线性缩放整体亮度/对比度，补偿暗部或雾感残留",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 17.319805825267558,
+          "std": 2.8704139435489977
+        },
+        "ssim": {
+          "mean": 0.7314497727022964,
+          "std": 0.0761421135518933
+        },
+        "channel_shift": {
+          "mean": 19.187999216715493,
+          "std": 11.927117044380289
+        },
+        "contrast_std": {
+          "mean": 51.82342636152562,
+          "std": 8.484150830293594
+        },
+        "mean_val": 121.63639831542969,
+        "contrast": 51.82342636152562,
+        "rb_ratio": 1.290627747619064,
+        "uiqm": {
+          "mean": 0.0018864154686027757,
+          "std": 4.313746145661345
+        },
+        "psnr_mean": 17.319805825267558,
+        "ssim_mean": 0.7314497727022964,
+        "channel_shift_mean": 19.187999216715493
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 20,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 17.54401161264195,
+            "std": 2.8415383420360905
+          },
+          "ssim": {
+            "mean": 0.73623309492158,
+            "std": 0.0756943585121604
+          },
+          "channel_shift": {
+            "mean": 19.431612650553383,
+            "std": 11.866173820710609
+          },
+          "contrast_std": {
+            "mean": 49.36821639010839,
+            "std": 8.084252088366854
+          },
+          "mean_val": 116.32622350056963,
+          "contrast": 49.36821639010839,
+          "rb_ratio": 1.2890651291330528,
+          "uiqm": {
+            "mean": 0.008283041013925496,
+            "std": 4.109738273486433
+          },
+          "psnr_mean": 17.54401161264195,
+          "ssim_mean": 0.73623309492158,
+          "channel_shift_mean": 19.431612650553383
+        }
+      },
+      "entry_id": "aaf5d171",
+      "created_at": "2026-11-21 16:57:20"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "sharpen",
+        "old": null,
+        "new": 0.3
+      },
+      "rationale": "Unsharp Mask 补偿去模糊/去噪带来的细节损失",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 17.00727675809661,
+          "std": 2.5674141178713836
+        },
+        "ssim": {
+          "mean": 0.7079053406549103,
+          "std": 0.07640918245389007
+        },
+        "channel_shift": {
+          "mean": 19.516749064127605,
+          "std": 11.837382389153683
+        },
+        "contrast_std": {
+          "mean": 52.307759427571696,
+          "std": 7.854540817004652
+        },
+        "mean_val": 115.88437525431316,
+        "contrast": 52.307759427571696,
+        "rb_ratio": 1.2905173289905267,
+        "uiqm": {
+          "mean": 2.6754164741703863,
+          "std": 5.028646310554446
+        },
+        "psnr_mean": 17.00727675809661,
+        "ssim_mean": 0.7079053406549103,
+        "channel_shift_mean": 19.516749064127605
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 20,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 17.54401161264195,
+            "std": 2.8415383420360905
+          },
+          "ssim": {
+            "mean": 0.73623309492158,
+            "std": 0.0756943585121604
+          },
+          "channel_shift": {
+            "mean": 19.431612650553383,
+            "std": 11.866173820710609
+          },
+          "contrast_std": {
+            "mean": 49.36821639010839,
+            "std": 8.084252088366854
+          },
+          "mean_val": 116.32622350056963,
+          "contrast": 49.36821639010839,
+          "rb_ratio": 1.2890651291330528,
+          "uiqm": {
+            "mean": 0.008283041013925496,
+            "std": 4.109738273486433
+          },
+          "psnr_mean": 17.54401161264195,
+          "ssim_mean": 0.73623309492158,
+          "channel_shift_mean": 19.431612650553383
+        }
+      },
+      "entry_id": "1161deb8",
+      "created_at": "2026-11-21 16:57:22"
+    },
+    {
+      "degradation": "denoise",
+      "backbone": "bilateral",
+      "harness_edit": {
+        "stage": "backend",
+        "key": "backend",
+        "old": "nlm",
+        "new": "bilateral"
+      },
+      "rationale": "在同任务备选冻结后端间切换路线",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 23.15360422754017,
+          "std": 0.4076081692012238
+        },
+        "ssim": {
+          "mean": 0.5142269230169622,
+          "std": 0.10339963030186751
+        },
+        "channel_shift": {
+          "mean": 0.49127508092809763,
+          "std": 0.25031999113655534
+        },
+        "contrast_std": {
+          "mean": 46.517741015757586,
+          "std": 13.27558572917294
+        },
+        "mean_val": 93.03589771412037,
+        "contrast": 46.517741015757586,
+        "rb_ratio": 1.5938714514875632,
+        "psnr_mean": 23.15360422754017,
+        "ssim_mean": 0.5142269230169622,
+        "channel_shift_mean": 0.49127508092809763
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 12,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 23.393630699998457,
+            "std": 0.7549997257975496
+          },
+          "ssim": {
+            "mean": 0.5871955826599636,
+            "std": 0.11088861401665046
+          },
+          "channel_shift": {
+            "mean": 1.1499511577464923,
+            "std": 0.3399792452491903
+          },
+          "contrast_std": {
+            "mean": 47.06596450422364,
+            "std": 12.765478168985865
+          },
+          "mean_val": 92.44713698493109,
+          "contrast": 47.06596450422364,
+          "rb_ratio": 1.5665161356739192,
+          "psnr_mean": 23.393630699998457,
+          "ssim_mean": 0.5871955826599636,
+          "channel_shift_mean": 1.1499511577464923
+        }
+      },
+      "entry_id": "f3f5a380",
+      "created_at": "2026-11-21 16:57:41"
+    },
+    {
+      "degradation": "denoise",
+      "backbone": "nlm",
+      "harness_edit": {
+        "stage": "backend_config",
+        "key": "h",
+        "old": null,
+        "new": 7
+      },
+      "rationale": "NLM 滤波强度，权衡噪声残留与细节平滑",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 22.58897414835101,
+          "std": 0.45593981334893274
+        },
+        "ssim": {
+          "mean": 0.5292645419935186,
+          "std": 0.11233358239153508
+        },
+        "channel_shift": {
+          "mean": 1.0439321729871978,
+          "std": 0.2741391136846033
+        },
+        "contrast_std": {
+          "mean": 48.17287522740842,
+          "std": 12.578146808670267
+        },
+        "mean_val": 92.64042536417644,
+        "contrast": 48.17287522740842,
+        "rb_ratio": 1.564812168800443,
+        "psnr_mean": 22.58897414835101,
+        "ssim_mean": 0.5292645419935186,
+        "channel_shift_mean": 1.0439321729871978
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 12,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 23.393630699998457,
+            "std": 0.7549997257975496
+          },
+          "ssim": {
+            "mean": 0.5871955826599636,
+            "std": 0.11088861401665046
+          },
+          "channel_shift": {
+            "mean": 1.1499511577464923,
+            "std": 0.3399792452491903
+          },
+          "contrast_std": {
+            "mean": 47.06596450422364,
+            "std": 12.765478168985865
+          },
+          "mean_val": 92.44713698493109,
+          "contrast": 47.06596450422364,
+          "rb_ratio": 1.5665161356739192,
+          "psnr_mean": 23.393630699998457,
+          "ssim_mean": 0.5871955826599636,
+          "channel_shift_mean": 1.1499511577464923
+        }
+      },
+      "entry_id": "3394721c",
+      "created_at": "2026-11-21 16:57:45"
+    },
+    {
+      "degradation": "denoise",
+      "backbone": "nlm",
+      "harness_edit": {
+        "stage": "backend_config",
+        "key": "h",
+        "old": null,
+        "new": 10
+      },
+      "rationale": "NLM 滤波强度，权衡噪声残留与细节平滑",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 23.393630699998457,
+          "std": 0.7549997257975496
+        },
+        "ssim": {
+          "mean": 0.5871955826599636,
+          "std": 0.11088861401665046
+        },
+        "channel_shift": {
+          "mean": 1.1499511577464923,
+          "std": 0.3399792452491903
+        },
+        "contrast_std": {
+          "mean": 47.06596450422364,
+          "std": 12.765478168985865
+        },
+        "mean_val": 92.44713698493109,
+        "contrast": 47.06596450422364,
+        "rb_ratio": 1.5665161356739192,
+        "psnr_mean": 23.393630699998457,
+        "ssim_mean": 0.5871955826599636,
+        "channel_shift_mean": 1.1499511577464923
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 12,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 23.393630699998457,
+            "std": 0.7549997257975496
+          },
+          "ssim": {
+            "mean": 0.5871955826599636,
+            "std": 0.11088861401665046
+          },
+          "channel_shift": {
+            "mean": 1.1499511577464923,
+            "std": 0.3399792452491903
+          },
+          "contrast_std": {
+            "mean": 47.06596450422364,
+            "std": 12.765478168985865
+          },
+          "mean_val": 92.44713698493109,
+          "contrast": 47.06596450422364,
+          "rb_ratio": 1.5665161356739192,
+          "psnr_mean": 23.393630699998457,
+          "ssim_mean": 0.5871955826599636,
+          "channel_shift_mean": 1.1499511577464923
+        }
+      },
+      "entry_id": "93650210",
+      "created_at": "2026-11-21 16:57:50"
+    },
+    {
+      "degradation": "denoise",
+      "backbone": "nlm",
+      "harness_edit": {
+        "stage": "backend_config",
+        "key": "h",
+        "old": null,
+        "new": 15
+      },
+      "rationale": "NLM 滤波强度，权衡噪声残留与细节平滑",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 23.81281145017776,
+          "std": 0.657019971560968
+        },
+        "ssim": {
+          "mean": 0.5664776976552702,
+          "std": 0.09082382340813124
+        },
+        "channel_shift": {
+          "mean": 1.5184957009774689,
+          "std": 0.527132642719054
+        },
+        "contrast_std": {
+          "mean": 44.602807185634084,
+          "std": 13.605209550066622
+        },
+        "mean_val": 91.9938001985903,
+        "contrast": 44.602807185634084,
+        "rb_ratio": 1.574849786057942,
+        "psnr_mean": 23.81281145017776,
+        "ssim_mean": 0.5664776976552702,
+        "channel_shift_mean": 1.5184957009774689
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 12,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 23.393630699998457,
+            "std": 0.7549997257975496
+          },
+          "ssim": {
+            "mean": 0.5871955826599636,
+            "std": 0.11088861401665046
+          },
+          "channel_shift": {
+            "mean": 1.1499511577464923,
+            "std": 0.3399792452491903
+          },
+          "contrast_std": {
+            "mean": 47.06596450422364,
+            "std": 12.765478168985865
+          },
+          "mean_val": 92.44713698493109,
+          "contrast": 47.06596450422364,
+          "rb_ratio": 1.5665161356739192,
+          "psnr_mean": 23.393630699998457,
+          "ssim_mean": 0.5871955826599636,
+          "channel_shift_mean": 1.1499511577464923
+        }
+      },
+      "entry_id": "2d8a5426",
+      "created_at": "2026-11-21 16:57:55"
+    },
+    {
+      "degradation": "denoise",
+      "backbone": "nlm",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "sharpen",
+        "old": null,
+        "new": 0.2
+      },
+      "rationale": "Unsharp Mask 补偿去模糊/去噪带来的细节损失",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 22.24756912635343,
+          "std": 0.7982264520766404
+        },
+        "ssim": {
+          "mean": 0.5558864753671285,
+          "std": 0.11512420836695376
+        },
+        "channel_shift": {
+          "mean": 1.3416948671694158,
+          "std": 0.4429782114924481
+        },
+        "contrast_std": {
+          "mean": 48.26658229447147,
+          "std": 12.581945270042642
+        },
+        "mean_val": 92.20334568730107,
+        "contrast": 48.26658229447147,
+        "rb_ratio": 1.5669925666458202,
+        "psnr_mean": 22.24756912635343,
+        "ssim_mean": 0.5558864753671285,
+        "channel_shift_mean": 1.3416948671694158
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 12,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 23.393630699998457,
+            "std": 0.7549997257975496
+          },
+          "ssim": {
+            "mean": 0.5871955826599636,
+            "std": 0.11088861401665046
+          },
+          "channel_shift": {
+            "mean": 1.1499511577464923,
+            "std": 0.3399792452491903
+          },
+          "contrast_std": {
+            "mean": 47.06596450422364,
+            "std": 12.765478168985865
+          },
+          "mean_val": 92.44713698493109,
+          "contrast": 47.06596450422364,
+          "rb_ratio": 1.5665161356739192,
+          "psnr_mean": 23.393630699998457,
+          "ssim_mean": 0.5871955826599636,
+          "channel_shift_mean": 1.1499511577464923
+        }
+      },
+      "entry_id": "a8e58525",
+      "created_at": "2026-11-21 16:57:59"
+    },
+    {
+      "degradation": "denoise",
+      "backbone": "nlm",
+      "harness_edit": {
+        "stage": "backend_config",
+        "key": "h",
+        "old": null,
+        "new": 10
+      },
+      "rationale": "NLM 滤波强度，权衡噪声残留与细节平滑",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": {
+          "mean": 23.393630699998457,
+          "std": 0.7549997257975496
+        },
+        "ssim": {
+          "mean": 0.5871955826599636,
+          "std": 0.11088861401665046
+        },
+        "channel_shift": {
+          "mean": 1.1499511577464923,
+          "std": 0.3399792452491903
+        },
+        "contrast_std": {
+          "mean": 47.06596450422364,
+          "std": 12.765478168985865
+        },
+        "mean_val": 92.44713698493109,
+        "contrast": 47.06596450422364,
+        "rb_ratio": 1.5665161356739192,
+        "psnr_mean": 23.393630699998457,
+        "ssim_mean": 0.5871955826599636,
+        "channel_shift_mean": 1.1499511577464923
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 12,
+        "baseline_metrics": {
+          "psnr": {
+            "mean": 23.393630699998457,
+            "std": 0.7549997257975496
+          },
+          "ssim": {
+            "mean": 0.5871955826599636,
+            "std": 0.11088861401665046
+          },
+          "channel_shift": {
+            "mean": 1.1499511577464923,
+            "std": 0.3399792452491903
+          },
+          "contrast_std": {
+            "mean": 47.06596450422364,
+            "std": 12.765478168985865
+          },
+          "mean_val": 92.44713698493109,
+          "contrast": 47.06596450422364,
+          "rb_ratio": 1.5665161356739192,
+          "psnr_mean": 23.393630699998457,
+          "ssim_mean": 0.5871955826599636,
+          "channel_shift_mean": 1.1499511577464923
+        }
+      },
+      "entry_id": "ea26ceb3",
+      "created_at": "2026-11-21 16:58:04"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+tasks:
+  lowlight:
+    baseline:
+      name: lowlight-baseline
+      backend: zero_dce
+      backend_config: {}
+      preprocess:
+        white_balance: none
+        gamma: null
+        stretch: null
+      postprocess:
+        gain: 1.0
+        gamma: null
+        channel_gain: null
+        sharpen: null
+        tta_flip: false
+  dehaze:
+    baseline:
+      name: dehaze-baseline
+      backend: aodnet
+      backend_config: {}
+      preprocess:
+        white_balance: none
+        gamma: null
+        stretch: null
+      postprocess:
+        gain: 1.0
+        gamma: null
+        channel_gain: null
+        sharpen: null
+        tta_flip: false
+  underwater:
+    baseline:
+      name: underwater-baseline
+      backend: funie_gan
+      backend_config: {}
+      preprocess:
+        white_balance: none
+        gamma: null
+        stretch: null
+      postprocess:
+        gain: 1.0
+        gamma: null
+        channel_gain: null
+        sharpen: null
+        tta_flip: false
+  denoise:
+    baseline:
+      name: denoise-baseline
+      backend: nlm
+      backend_config: {}
+      preprocess:
+        white_balance: none
+        gamma: null
+        stretch: null
+      postprocess:
+        gain: 1.0
+        gamma: null
+        channel_gain: null
+        sharpen: null
+        tta_flip: false

@@ -1,0 +1,90 @@
+{
+  "dehaze": [
+    {
+      "name": "astronaut",
+      "gt": "astronaut",
+      "seed": 0
+    },
+    {
+      "name": "coffee",
+      "gt": "coffee",
+      "seed": 1
+    },
+    {
+      "name": "chelsea",
+      "gt": "chelsea",
+      "seed": 2
+    },
+    {
+      "name": "hubble",
+      "gt": "hubble",
+      "seed": 3
+    }
+  ],
+  "lowlight": [
+    {
+      "name": "astronaut",
+      "gt": "astronaut",
+      "seed": 0
+    },
+    {
+      "name": "coffee",
+      "gt": "coffee",
+      "seed": 1
+    },
+    {
+      "name": "chelsea",
+      "gt": "chelsea",
+      "seed": 2
+    },
+    {
+      "name": "hubble",
+      "gt": "hubble",
+      "seed": 3
+    }
+  ],
+  "underwater": [
+    {
+      "name": "astronaut",
+      "gt": "astronaut",
+      "seed": 0
+    },
+    {
+      "name": "coffee",
+      "gt": "coffee",
+      "seed": 1
+    },
+    {
+      "name": "chelsea",
+      "gt": "chelsea",
+      "seed": 2
+    },
+    {
+      "name": "hubble",
+      "gt": "hubble",
+      "seed": 3
+    }
+  ],
+  "denoise": [
+    {
+      "name": "astronaut",
+      "gt": "astronaut",
+      "seed": 0
+    },
+    {
+      "name": "coffee",
+      "gt": "coffee",
+      "seed": 1
+    },
+    {
+      "name": "chelsea",
+      "gt": "chelsea",
+      "seed": 2
+    },
+    {
+      "name": "hubble",
+      "gt": "hubble",
+      "seed": 3
+    }
+  ]
+}

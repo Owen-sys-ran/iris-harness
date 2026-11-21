@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Data archives and extracted samples (rebuild via scripts/prepare_real_data.py)
+data/real/_archive/
+data/real/*/input/
+data/real/*/gt/
+
+# Checkpoints (fetch from URLs in README)
+weights/*.pth
+weights/*.ckpt
+
+# Experiment outputs (regenerable)
+results/real/*.png
+results/real/*.log
+results/*.png
+results/*.csv
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local env
+.env
+*.local.yaml

@@ -1,0 +1,728 @@
+{
+  "entries": [
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.05
+      },
+      "rationale": "线性缩放对比度，抑制雾感或抬升暗部",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 18.968670655671627,
+        "ssim": 0.6896554081490631,
+        "channel_shift": 17.166402180989582,
+        "contrast_std": 43.46657492045127
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 19.741819379634755,
+          "ssim": 0.701338865019042,
+          "channel_shift": 14.002113342285156,
+          "contrast_std": 41.43089814336266
+        }
+      },
+      "entry_id": "c2a07df2",
+      "created_at": "2026-11-21 15:58:12"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.15
+      },
+      "rationale": "线性缩放对比度，抑制雾感或抬升暗部",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 17.206871371580206,
+        "ssim": 0.6545887529822225,
+        "channel_shift": 24.089787801106773,
+        "contrast_std": 46.880757831769785
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 19.741819379634755,
+          "ssim": 0.701338865019042,
+          "channel_shift": 14.002113342285156,
+          "contrast_std": 41.43089814336266
+        }
+      },
+      "entry_id": "4b8d9cf3",
+      "created_at": "2026-11-21 15:58:12"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "aodnet",
+      "harness_edit": {
+        "stage": "preprocess",
+        "key": "white_balance",
+        "old": "none",
+        "new": "grayworld"
+      },
+      "rationale": "灰度世界白平衡校正色偏",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 16.862634830747588,
+        "ssim": 0.6556171931157107,
+        "channel_shift": 24.654083251953125,
+        "contrast_std": 43.13659426271521
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 19.741819379634755,
+          "ssim": 0.701338865019042,
+          "channel_shift": 14.002113342285156,
+          "contrast_std": 41.43089814336266
+        }
+      },
+      "entry_id": "f3063abd",
+      "created_at": "2026-11-21 15:58:12"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "msr",
+      "harness_edit": {
+        "stage": "backend",
+        "key": "backend",
+        "old": "aodnet",
+        "new": "msr"
+      },
+      "rationale": "在同任务备选冻结后端间切换，比较外围路线",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 11.153756314196453,
+        "ssim": 0.41201442845041236,
+        "channel_shift": 65.1116460164388,
+        "contrast_std": 45.61619553763758
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 19.741819379634755,
+          "ssim": 0.701338865019042,
+          "channel_shift": 14.002113342285156,
+          "contrast_std": 41.43089814336266
+        }
+      },
+      "entry_id": "97649e6c",
+      "created_at": "2026-11-21 15:58:12"
+    },
+    {
+      "degradation": "dehaze",
+      "backbone": "clahe",
+      "harness_edit": {
+        "stage": "backend",
+        "key": "backend",
+        "old": "aodnet",
+        "new": "clahe"
+      },
+      "rationale": "在同任务备选冻结后端间切换，比较外围路线",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 13.453410566272265,
+        "ssim": 0.4106864713051548,
+        "channel_shift": 46.021080017089844,
+        "contrast_std": 41.31135379127292
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 19.741819379634755,
+          "ssim": 0.701338865019042,
+          "channel_shift": 14.002113342285156,
+          "contrast_std": 41.43089814336266
+        }
+      },
+      "entry_id": "d22d17ea",
+      "created_at": "2026-11-21 15:58:13"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gamma",
+        "old": null,
+        "new": 0.7
+      },
+      "rationale": "调整曲线映射，补偿后端输出的整体偏亮/偏暗",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 16.340839534239613,
+        "ssim": 0.4278275014759506,
+        "channel_shift": 12.532869974772137,
+        "contrast_std": 44.74707247523404
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 15.572554203765982,
+          "ssim": 0.4473730657530294,
+          "channel_shift": 20.564193725585938,
+          "contrast_std": 39.512864170989985
+        }
+      },
+      "entry_id": "025d49a7",
+      "created_at": "2026-11-21 15:58:28"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gamma",
+        "old": null,
+        "new": 0.85
+      },
+      "rationale": "调整曲线映射，补偿后端输出的整体偏亮/偏暗",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 16.452546480791188,
+        "ssim": 0.4404207465654567,
+        "channel_shift": 13.200912475585938,
+        "contrast_std": 42.136623543972476
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 15.572554203765982,
+          "ssim": 0.4473730657530294,
+          "channel_shift": 20.564193725585938,
+          "contrast_std": 39.512864170989985
+        }
+      },
+      "entry_id": "115209b1",
+      "created_at": "2026-11-21 15:58:32"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gamma",
+        "old": null,
+        "new": 1.15
+      },
+      "rationale": "调整曲线映射，补偿后端输出的整体偏亮/偏暗",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 14.298966526414077,
+        "ssim": 0.44760470226490545,
+        "channel_shift": 31.226130167643227,
+        "contrast_std": 36.730769978355596
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 15.572554203765982,
+          "ssim": 0.4473730657530294,
+          "channel_shift": 20.564193725585938,
+          "contrast_std": 39.512864170989985
+        }
+      },
+      "entry_id": "50a2db31",
+      "created_at": "2026-11-21 15:58:35"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.1
+      },
+      "rationale": "线性缩放对比度，抑制雾感或抬升暗部",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 16.780155366789877,
+        "ssim": 0.4420412553436102,
+        "channel_shift": 13.745559692382812,
+        "contrast_std": 43.395830767228574
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 15.572554203765982,
+          "ssim": 0.4473730657530294,
+          "channel_shift": 20.564193725585938,
+          "contrast_std": 39.512864170989985
+        }
+      },
+      "entry_id": "1465afee",
+      "created_at": "2026-11-21 15:58:39"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.25
+      },
+      "rationale": "线性缩放对比度，抑制雾感或抬升暗部",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 17.937964131218006,
+        "ssim": 0.426806987158456,
+        "channel_shift": 7.535123189290365,
+        "contrast_std": 49.33391896358363
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 15.572554203765982,
+          "ssim": 0.4473730657530294,
+          "channel_shift": 20.564193725585938,
+          "contrast_std": 39.512864170989985
+        }
+      },
+      "entry_id": "9436121e",
+      "created_at": "2026-11-21 15:58:43"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "preprocess",
+        "key": "white_balance",
+        "old": "none",
+        "new": "grayworld"
+      },
+      "rationale": "灰度世界白平衡校正色偏",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 13.769785361405145,
+        "ssim": 0.4195881494854004,
+        "channel_shift": 28.31273396809896,
+        "contrast_std": 41.62839615325747
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 15.572554203765982,
+          "ssim": 0.4473730657530294,
+          "channel_shift": 20.564193725585938,
+          "contrast_std": 39.512864170989985
+        }
+      },
+      "entry_id": "10c025ed",
+      "created_at": "2026-11-21 15:58:47"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gamma",
+        "old": null,
+        "new": 0.85
+      },
+      "rationale": "调整曲线映射，补偿后端输出的整体偏亮/偏暗",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 16.452546480791188,
+        "ssim": 0.4404207465654567,
+        "channel_shift": 13.200912475585938,
+        "contrast_std": 42.136623543972476
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 15.572554203765982,
+          "ssim": 0.4473730657530294,
+          "channel_shift": 20.564193725585938,
+          "contrast_std": 39.512864170989985
+        }
+      },
+      "entry_id": "a82e38d7",
+      "created_at": "2026-11-21 15:58:51"
+    },
+    {
+      "degradation": "lowlight",
+      "backbone": "zero_dce",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.1
+      },
+      "rationale": "线性缩放对比度，抑制雾感或抬升暗部",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 16.780155366789877,
+        "ssim": 0.4420412553436102,
+        "channel_shift": 13.745559692382812,
+        "contrast_std": 43.395830767228574
+      },
+      "verdict": "neutral",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 15.572554203765982,
+          "ssim": 0.4473730657530294,
+          "channel_shift": 20.564193725585938,
+          "contrast_std": 39.512864170989985
+        }
+      },
+      "entry_id": "d47af575",
+      "created_at": "2026-11-21 15:58:54"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 0.95
+      },
+      "rationale": "线性缩放对比度，抑制雾感或抬升暗部",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 20.108191830201655,
+        "ssim": 0.7779817885680627,
+        "channel_shift": 12.869977315266928,
+        "contrast_std": 53.55909236092457,
+        "uiqm": -8.27696084332466
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 21.620618040696524,
+          "ssim": 0.7823983349611717,
+          "channel_shift": 7.848833719889323,
+          "contrast_std": 56.399829468241464,
+          "uiqm": -8.731341955417395
+        }
+      },
+      "entry_id": "7065f66f",
+      "created_at": "2026-11-21 15:59:02"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "gain",
+        "old": 1.0,
+        "new": 1.05
+      },
+      "rationale": "线性缩放对比度，抑制雾感或抬升暗部",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 22.735941752696085,
+        "ssim": 0.7852540017204981,
+        "channel_shift": 7.21692148844401,
+        "contrast_std": 59.215092779117064,
+        "uiqm": -9.183867691671848
+      },
+      "verdict": "improved",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 21.620618040696524,
+          "ssim": 0.7823983349611717,
+          "channel_shift": 7.848833719889323,
+          "contrast_std": 56.399829468241464,
+          "uiqm": -8.731341955417395
+        }
+      },
+      "entry_id": "816a9f41",
+      "created_at": "2026-11-21 15:59:03"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "funie_gan",
+      "harness_edit": {
+        "stage": "preprocess",
+        "key": "white_balance",
+        "old": "none",
+        "new": "grayworld"
+      },
+      "rationale": "灰度世界白平衡校正色偏",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 21.155733255035145,
+        "ssim": 0.7638455355714691,
+        "channel_shift": 11.896519978841145,
+        "contrast_std": 58.923944113711755,
+        "uiqm": -8.801158129400015
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 22.735941752696085,
+          "ssim": 0.7852540017204981,
+          "channel_shift": 7.21692148844401,
+          "contrast_std": 59.215092779117064,
+          "uiqm": -9.183867691671848
+        }
+      },
+      "entry_id": "f3b3cbe1",
+      "created_at": "2026-11-21 15:59:03"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "grayworld",
+      "harness_edit": {
+        "stage": "backend",
+        "key": "backend",
+        "old": "funie_gan",
+        "new": "grayworld"
+      },
+      "rationale": "在同任务备选冻结后端间切换，比较外围路线",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 16.73947699469433,
+        "ssim": 0.7004453364468359,
+        "channel_shift": 26.456141153971355,
+        "contrast_std": 52.75887035288809,
+        "uiqm": -3.0371073828876023
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 22.735941752696085,
+          "ssim": 0.7852540017204981,
+          "channel_shift": 7.21692148844401,
+          "contrast_std": 59.215092779117064,
+          "uiqm": -9.183867691671848
+        }
+      },
+      "entry_id": "25697029",
+      "created_at": "2026-11-21 15:59:03"
+    },
+    {
+      "degradation": "underwater",
+      "backbone": "msr",
+      "harness_edit": {
+        "stage": "backend",
+        "key": "backend",
+        "old": "funie_gan",
+        "new": "msr"
+      },
+      "rationale": "在同任务备选冻结后端间切换，比较外围路线",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 12.127054120246992,
+        "ssim": 0.5703532485563858,
+        "channel_shift": 55.277626037597656,
+        "contrast_std": 59.4909417379995,
+        "uiqm": -7.34477257950902
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 22.735941752696085,
+          "ssim": 0.7852540017204981,
+          "channel_shift": 7.21692148844401,
+          "contrast_std": 59.215092779117064,
+          "uiqm": -9.183867691671848
+        }
+      },
+      "entry_id": "3fb0dc64",
+      "created_at": "2026-11-21 15:59:03"
+    },
+    {
+      "degradation": "denoise",
+      "backbone": "bilateral",
+      "harness_edit": {
+        "stage": "backend",
+        "key": "backend",
+        "old": "nlm",
+        "new": "bilateral"
+      },
+      "rationale": "在同任务备选冻结后端间切换，比较外围路线",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 24.833596822650048,
+        "ssim": 0.5458813337212131,
+        "channel_shift": 2.023305257161458,
+        "contrast_std": 38.883195380952046
+      },
+      "verdict": "improved",
+      "provenance": {
+        "round": 0,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 22.984476955299733,
+          "ssim": 0.4964931280910603,
+          "channel_shift": 2.5671361287434897,
+          "contrast_std": 39.594581165914434
+        }
+      },
+      "entry_id": "5da7a5da",
+      "created_at": "2026-11-21 15:59:04"
+    },
+    {
+      "degradation": "denoise",
+      "backbone": "nlm",
+      "harness_edit": {
+        "stage": "backend",
+        "key": "backend",
+        "old": "bilateral",
+        "new": "nlm"
+      },
+      "rationale": "在同任务备选冻结后端间切换，比较外围路线",
+      "pred_outcome": {
+        "direction": "expect improvement on paired metrics"
+      },
+      "observed_outcome": {
+        "psnr": 22.984476955299733,
+        "ssim": 0.4964931280910603,
+        "channel_shift": 2.5671361287434897,
+        "contrast_std": 39.594581165914434
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": 1,
+        "subset": "hard",
+        "n_samples": 2,
+        "baseline_metrics": {
+          "psnr": 24.833596822650048,
+          "ssim": 0.5458813337212131,
+          "channel_shift": 2.023305257161458,
+          "contrast_std": 38.883195380952046
+        }
+      },
+      "entry_id": "852966c1",
+      "created_at": "2026-11-21 15:59:04"
+    },
+    {
+      "degradation": "denoise",
+      "backbone": "bilateral",
+      "harness_edit": {
+        "stage": "postprocess",
+        "key": "fullset-rollback",
+        "old": null,
+        "new": "bilateral"
+      },
+      "rationale": "全量复评回退保护：hard 子集改进未迁移到全量样本",
+      "pred_outcome": {
+        "direction": "expect improvement to transfer"
+      },
+      "observed_outcome": {
+        "psnr": 24.044474784701396,
+        "ssim": 0.5344948808092622,
+        "channel_shift": 1.3624916076660156,
+        "contrast_std": 45.7613863784434
+      },
+      "verdict": "regressed",
+      "provenance": {
+        "round": "final",
+        "subset": "full",
+        "n_samples": 4,
+        "baseline_metrics": {
+          "psnr": 24.117391839304226,
+          "ssim": 0.6091090621275478,
+          "channel_shift": 1.885229746500651,
+          "contrast_std": 45.926524716219255
+        }
+      },
+      "entry_id": "c3caacf6",
+      "created_at": "2026-11-21 15:59:04"
+    }
+  ]
+}
